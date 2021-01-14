@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from 'antd'
-function Index() {
+import { AgencyList } from './agency-list/AgencyList'
+import './Index.css'
+export const Index:React.FC = ()=>{
   return (
-    <div>
-      <Button>按钮</Button>
+    <div className="main-page"
+    >
+      <AgencyList/>
     </div>
   )
 }
-
-export default Index
