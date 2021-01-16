@@ -7,7 +7,7 @@ interface AgencyListProps {
   
 }
 
-export const AgencyList:React.FC<AgencyListProps> = ()=>{
+const AgencyList:React.FC<AgencyListProps> = ()=>{
   return (
     <div>
       {/* <Button type="primary">submit</Button> */}
@@ -16,3 +16,4 @@ export const AgencyList:React.FC<AgencyListProps> = ()=>{
   )
 }
 
+export default AgencyList
